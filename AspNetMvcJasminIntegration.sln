@@ -5,6 +5,8 @@ VisualStudioVersion = 12.0.21005.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcJasminIntegration", "AspNetMvcJasminIntegration\AspNetMvcJasminIntegration.csproj", "{B48A3470-B73D-4BC4-8263-F53AAF0A60D4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AspNetMvcJasminIntegration.Scripts.Tests", "AspNetMvcJasminIntegration.Scripts.Tests\AspNetMvcJasminIntegration.Scripts.Tests.csproj", "{50E771D0-0591-46A2-8AE5-4A08E549F79F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{B48A3470-B73D-4BC4-8263-F53AAF0A60D4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B48A3470-B73D-4BC4-8263-F53AAF0A60D4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B48A3470-B73D-4BC4-8263-F53AAF0A60D4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{50E771D0-0591-46A2-8AE5-4A08E549F79F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{50E771D0-0591-46A2-8AE5-4A08E549F79F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{50E771D0-0591-46A2-8AE5-4A08E549F79F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{50E771D0-0591-46A2-8AE5-4A08E549F79F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
