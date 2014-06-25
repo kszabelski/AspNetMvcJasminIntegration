@@ -1,5 +1,8 @@
 function Player() {
 }
+
+
+
 Player.prototype.play = function(song) {
   this.currentlyPlayingSong = song;
   this.isPlaying = true;
@@ -15,6 +18,16 @@ Player.prototype.resume = function() {
   }
 
   this.isPlaying = true;
+};
+
+Player.prototype.currentlyPlaying = function () {
+    if (this.currentlyPlayingSong == undefined || this.currentlyPlayingSong == null)
+        return "(nothing)";
+
+    if (this.isPlaying)
+        return this.currentlyPlayingSong.name;
+    else
+        return "(paused) " + this.currentlyPlayingSong.name;
 };
 
 Player.prototype.makeFavorite = function() {

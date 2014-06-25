@@ -49,6 +49,7 @@
     <Content Include="lib\jasmine-2.0.0\jasmine.js" />
     <Content Include="lib\jasmine-2.0.0\jasmine_favicon.png" />
     <Content Include="SpecRunner.html" />
+    <Content Include="spec\PlayerCurrentlyPlayingSpec.js" />
     <Content Include="spec\PlayerSpec.js" />
     <Content Include="spec\SpecHelper.js" />
   </ItemGroup>

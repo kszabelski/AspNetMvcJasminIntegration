@@ -1,3 +1,12 @@
+/// Following references are required by Resharper test runner.
+/// <reference path="SpecHelper.js" />
+/// <reference path="../../AspNetMvcJasminIntegration/Scripts/src/Player.js" />
+/// <reference path="../../AspNetMvcJasminIntegration/Scripts/src/Song.js" />
+
+///=============
+/// Tests from Jasmin samples.
+///=============
+
 describe("Player", function () {
   var player;
   var song;
