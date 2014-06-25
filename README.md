@@ -18,6 +18,6 @@ Alternatively JS tests may be run by Karma outside of VS. See [javascript-tests-
 
 Another usefull links on this topic:
 
-[https://github.com/pivotal/jasmine/tree/master/dist]()
-[http://wingkaiwan.com/2012/09/08/setting-up-jasmine-aspnet-mvc-requirejs/]()
-[http://lostechies.com/josharnold/2012/02/25/running-jasmine-specs-in-dotnet-with-serenity/]()
+- [https://github.com/pivotal/jasmine/tree/master/dist]()
+- [http://wingkaiwan.com/2012/09/08/setting-up-jasmine-aspnet-mvc-requirejs/]()
+- [http://lostechies.com/josharnold/2012/02/25/running-jasmine-specs-in-dotnet-with-serenity/]()
